@@ -4,8 +4,8 @@ After=network-online.target
 
 [Service]
 Type=simple
-WorkingDirectory=/opt/iotloragateway/
-ExecStart=/opt/iotloragateway/iot-lora-gateway
+WorkingDirectory=/opt/edublocks/
+ExecStart=/opt/edublocks/edublocks-connect
 Restart=always
 RestartSec=60
 
