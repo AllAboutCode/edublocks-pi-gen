@@ -1,0 +1,13 @@
+[Unit]
+Description=Edublocks Server Service
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/iotloragateway/
+ExecStart=/opt/iotloragateway/iot-lora-gateway
+Restart=always
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target
