@@ -1,3 +1,3 @@
 su pi
-curl -sSL get.edublocks.org | bash
+curl -sSL connect.edublocks.org | bash
 /opt/edublocks/server/startup-enable.sh
