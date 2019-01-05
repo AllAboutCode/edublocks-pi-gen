@@ -1,1 +1,2 @@
 IMG_NAME='Raspbian-Edublocks'
+APT_PROXY=http://127.0.0.1:3142
